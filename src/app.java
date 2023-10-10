@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class app{
-    public static void main(String[] args) throws Exception {;
+    public static void main(String[] args) throws Exception {
 
     //call constructor for Right Triangle
     PerimeterOfRightTriangle pTri = new PerimeterOfRightTriangle();
