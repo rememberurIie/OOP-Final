@@ -1,15 +1,5 @@
 public class PerimeterOfRightTriangle extends RightTriangle{
 
-    /* shape Adjust */
-
-    public void shape(){
-    }
-
-    public void shape(String color, double border){
-        this.color = color;
-        this.border = border;
-    }
-
     /* Perimeter */
 
     public double hypotenuse;
@@ -36,7 +26,7 @@ public class PerimeterOfRightTriangle extends RightTriangle{
     }
 
     public void displayInfo(){
-        String a = "Color = " + this.color + " Border = " + this.border;
+        String a = "Color = " + getColor() + " Border = " + getBorder();
         String b = "This Triangle (First side = " + this.side1 + ", Second Side = " + this.side2 + ", Hypotenuse Side = " + this.hypotenuse + ") Have Perimeter = " + getPerimeterValue();
         System.out.println("");
         System.out.println(a);
